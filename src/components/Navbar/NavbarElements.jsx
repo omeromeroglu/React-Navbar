@@ -26,7 +26,7 @@ export const NavLink = styled(Link)`
     cursor: pointer;
 
     &.active{
-        color : #15cdfc;
+        color : #8820dd;
     }
 
     img{
@@ -78,7 +78,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
     border-radius: 4px;
-    background: #256ce1;
+    background: #95a7c4;
     padding: 10px 22px;
     color: #fff;
     border: none;

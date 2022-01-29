@@ -1,5 +1,8 @@
 import React from 'react';
 import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements.jsx';
+import SearchBar from '../SearchBar/SearchBar.jsx';
+
+
 
 const Navbar = () => {
   return <div>
@@ -20,6 +23,7 @@ const Navbar = () => {
             <h3>Search</h3>
           </NavLink>
         </NavMenu>
+        <SearchBar/>
         <NavBtn>
           <NavBtnLink to = "/search-query"> Search</NavBtnLink>
         </NavBtn>

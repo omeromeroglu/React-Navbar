@@ -7,7 +7,11 @@ const Home = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "90vh",
+        height: "91.7vh",
+        backgroundImage: "linear-gradient(90deg,#410076,#8820dd)",
+        color: "#fff"
+ 
+
       }}
     >
       <h1>Home
